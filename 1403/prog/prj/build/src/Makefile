@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patr95/Pulpit/PAMSI/1403/prog/prj
+CMAKE_SOURCE_DIR = /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patr95/Pulpit/PAMSI/1403/prog/prj/build
+CMAKE_BINARY_DIR = /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src/CMakeFiles/progress.marks
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles 0
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src/CMakeFiles/progress.marks
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/lista_projekt.dir/rule:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/lista_projekt.dir/rule
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/lista_projekt.dir/rule
 .PHONY : src/CMakeFiles/lista_projekt.dir/rule
 
 # Convenience name for target.
@@ -109,7 +109,7 @@ lista_projekt: src/CMakeFiles/lista_projekt.dir/rule
 
 # fast build rule for target.
 lista_projekt/fast:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/build
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/build
 .PHONY : lista_projekt/fast
 
 Biegacz.o: Biegacz.cpp.o
@@ -117,7 +117,7 @@ Biegacz.o: Biegacz.cpp.o
 
 # target to build an object file
 Biegacz.cpp.o:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o
 .PHONY : Biegacz.cpp.o
 
 Biegacz.i: Biegacz.cpp.i
@@ -125,7 +125,7 @@ Biegacz.i: Biegacz.cpp.i
 
 # target to preprocess a source file
 Biegacz.cpp.i:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.i
 .PHONY : Biegacz.cpp.i
 
 Biegacz.s: Biegacz.cpp.s
@@ -133,7 +133,7 @@ Biegacz.s: Biegacz.cpp.s
 
 # target to generate assembly for a file
 Biegacz.cpp.s:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.s
 .PHONY : Biegacz.cpp.s
 
 BiegaczLista.o: BiegaczLista.cpp.o
@@ -141,7 +141,7 @@ BiegaczLista.o: BiegaczLista.cpp.o
 
 # target to build an object file
 BiegaczLista.cpp.o:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o
 .PHONY : BiegaczLista.cpp.o
 
 BiegaczLista.i: BiegaczLista.cpp.i
@@ -149,7 +149,7 @@ BiegaczLista.i: BiegaczLista.cpp.i
 
 # target to preprocess a source file
 BiegaczLista.cpp.i:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.i
 .PHONY : BiegaczLista.cpp.i
 
 BiegaczLista.s: BiegaczLista.cpp.s
@@ -157,7 +157,7 @@ BiegaczLista.s: BiegaczLista.cpp.s
 
 # target to generate assembly for a file
 BiegaczLista.cpp.s:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.s
 .PHONY : BiegaczLista.cpp.s
 
 Lista.o: Lista.cpp.o
@@ -165,7 +165,7 @@ Lista.o: Lista.cpp.o
 
 # target to build an object file
 Lista.cpp.o:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Lista.cpp.o
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Lista.cpp.o
 .PHONY : Lista.cpp.o
 
 Lista.i: Lista.cpp.i
@@ -173,7 +173,7 @@ Lista.i: Lista.cpp.i
 
 # target to preprocess a source file
 Lista.cpp.i:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Lista.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Lista.cpp.i
 .PHONY : Lista.cpp.i
 
 Lista.s: Lista.cpp.s
@@ -181,7 +181,7 @@ Lista.s: Lista.cpp.s
 
 # target to generate assembly for a file
 Lista.cpp.s:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Lista.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Lista.cpp.s
 .PHONY : Lista.cpp.s
 
 Sedzia.o: Sedzia.cpp.o
@@ -189,7 +189,7 @@ Sedzia.o: Sedzia.cpp.o
 
 # target to build an object file
 Sedzia.cpp.o:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o
 .PHONY : Sedzia.cpp.o
 
 Sedzia.i: Sedzia.cpp.i
@@ -197,7 +197,7 @@ Sedzia.i: Sedzia.cpp.i
 
 # target to preprocess a source file
 Sedzia.cpp.i:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.i
 .PHONY : Sedzia.cpp.i
 
 Sedzia.s: Sedzia.cpp.s
@@ -205,7 +205,7 @@ Sedzia.s: Sedzia.cpp.s
 
 # target to generate assembly for a file
 Sedzia.cpp.s:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.s
 .PHONY : Sedzia.cpp.s
 
 Stoper.o: Stoper.cpp.o
@@ -213,7 +213,7 @@ Stoper.o: Stoper.cpp.o
 
 # target to build an object file
 Stoper.cpp.o:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o
 .PHONY : Stoper.cpp.o
 
 Stoper.i: Stoper.cpp.i
@@ -221,7 +221,7 @@ Stoper.i: Stoper.cpp.i
 
 # target to preprocess a source file
 Stoper.cpp.i:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Stoper.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Stoper.cpp.i
 .PHONY : Stoper.cpp.i
 
 Stoper.s: Stoper.cpp.s
@@ -229,7 +229,7 @@ Stoper.s: Stoper.cpp.s
 
 # target to generate assembly for a file
 Stoper.cpp.s:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Stoper.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/Stoper.cpp.s
 .PHONY : Stoper.cpp.s
 
 main.o: main.cpp.o
@@ -237,7 +237,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/main.cpp.o
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -245,7 +245,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/main.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -253,7 +253,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/main.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -294,6 +294,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

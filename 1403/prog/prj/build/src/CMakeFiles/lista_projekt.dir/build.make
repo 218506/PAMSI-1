@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patr95/Pulpit/PAMSI/1403/prog/prj
+CMAKE_SOURCE_DIR = /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patr95/Pulpit/PAMSI/1403/prog/prj/build
+CMAKE_BINARY_DIR = /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/lista_projekt.dir/depend.make
@@ -51,17 +51,17 @@ include src/CMakeFiles/lista_projekt.dir/flags.make
 
 src/CMakeFiles/lista_projekt.dir/Lista.cpp.o: src/CMakeFiles/lista_projekt.dir/flags.make
 src/CMakeFiles/lista_projekt.dir/Lista.cpp.o: ../src/Lista.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/lista_projekt.dir/Lista.cpp.o"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Lista.cpp.o -c /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Lista.cpp
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Lista.cpp.o -c /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Lista.cpp
 
 src/CMakeFiles/lista_projekt.dir/Lista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista_projekt.dir/Lista.cpp.i"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Lista.cpp > CMakeFiles/lista_projekt.dir/Lista.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Lista.cpp > CMakeFiles/lista_projekt.dir/Lista.cpp.i
 
 src/CMakeFiles/lista_projekt.dir/Lista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista_projekt.dir/Lista.cpp.s"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Lista.cpp -o CMakeFiles/lista_projekt.dir/Lista.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Lista.cpp -o CMakeFiles/lista_projekt.dir/Lista.cpp.s
 
 src/CMakeFiles/lista_projekt.dir/Lista.cpp.o.requires:
 .PHONY : src/CMakeFiles/lista_projekt.dir/Lista.cpp.o.requires
@@ -74,17 +74,17 @@ src/CMakeFiles/lista_projekt.dir/Lista.cpp.o.provides.build: src/CMakeFiles/list
 
 src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o: src/CMakeFiles/lista_projekt.dir/flags.make
 src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o: ../src/Sedzia.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Sedzia.cpp.o -c /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Sedzia.cpp
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Sedzia.cpp.o -c /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Sedzia.cpp
 
 src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista_projekt.dir/Sedzia.cpp.i"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Sedzia.cpp > CMakeFiles/lista_projekt.dir/Sedzia.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Sedzia.cpp > CMakeFiles/lista_projekt.dir/Sedzia.cpp.i
 
 src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista_projekt.dir/Sedzia.cpp.s"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Sedzia.cpp -o CMakeFiles/lista_projekt.dir/Sedzia.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Sedzia.cpp -o CMakeFiles/lista_projekt.dir/Sedzia.cpp.s
 
 src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o.requires:
 .PHONY : src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o.requires
@@ -97,17 +97,17 @@ src/CMakeFiles/lista_projekt.dir/Sedzia.cpp.o.provides.build: src/CMakeFiles/lis
 
 src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o: src/CMakeFiles/lista_projekt.dir/flags.make
 src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o: ../src/Stoper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Stoper.cpp.o -c /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Stoper.cpp
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Stoper.cpp.o -c /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Stoper.cpp
 
 src/CMakeFiles/lista_projekt.dir/Stoper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista_projekt.dir/Stoper.cpp.i"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Stoper.cpp > CMakeFiles/lista_projekt.dir/Stoper.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Stoper.cpp > CMakeFiles/lista_projekt.dir/Stoper.cpp.i
 
 src/CMakeFiles/lista_projekt.dir/Stoper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista_projekt.dir/Stoper.cpp.s"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Stoper.cpp -o CMakeFiles/lista_projekt.dir/Stoper.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Stoper.cpp -o CMakeFiles/lista_projekt.dir/Stoper.cpp.s
 
 src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o.requires:
 .PHONY : src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o.requires
@@ -120,17 +120,17 @@ src/CMakeFiles/lista_projekt.dir/Stoper.cpp.o.provides.build: src/CMakeFiles/lis
 
 src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o: src/CMakeFiles/lista_projekt.dir/flags.make
 src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o: ../src/Biegacz.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Biegacz.cpp.o -c /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Biegacz.cpp
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/Biegacz.cpp.o -c /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Biegacz.cpp
 
 src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista_projekt.dir/Biegacz.cpp.i"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Biegacz.cpp > CMakeFiles/lista_projekt.dir/Biegacz.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Biegacz.cpp > CMakeFiles/lista_projekt.dir/Biegacz.cpp.i
 
 src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista_projekt.dir/Biegacz.cpp.s"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/Biegacz.cpp -o CMakeFiles/lista_projekt.dir/Biegacz.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Biegacz.cpp -o CMakeFiles/lista_projekt.dir/Biegacz.cpp.s
 
 src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o.requires:
 .PHONY : src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o.requires
@@ -143,17 +143,17 @@ src/CMakeFiles/lista_projekt.dir/Biegacz.cpp.o.provides.build: src/CMakeFiles/li
 
 src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o: src/CMakeFiles/lista_projekt.dir/flags.make
 src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o: ../src/BiegaczLista.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o -c /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/BiegaczLista.cpp
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o -c /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.cpp
 
 src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.i"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/BiegaczLista.cpp > CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.cpp > CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.i
 
 src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.s"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/BiegaczLista.cpp -o CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.cpp -o CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.s
 
 src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o.requires:
 .PHONY : src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o.requires
@@ -166,17 +166,17 @@ src/CMakeFiles/lista_projekt.dir/BiegaczLista.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/lista_projekt.dir/main.cpp.o: src/CMakeFiles/lista_projekt.dir/flags.make
 src/CMakeFiles/lista_projekt.dir/main.cpp.o: ../src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/lista_projekt.dir/main.cpp.o"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/main.cpp.o -c /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/main.cpp
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/lista_projekt.dir/main.cpp.o -c /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/main.cpp
 
 src/CMakeFiles/lista_projekt.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lista_projekt.dir/main.cpp.i"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/main.cpp > CMakeFiles/lista_projekt.dir/main.cpp.i
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/main.cpp > CMakeFiles/lista_projekt.dir/main.cpp.i
 
 src/CMakeFiles/lista_projekt.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lista_projekt.dir/main.cpp.s"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/patr95/Pulpit/PAMSI/1403/prog/prj/src/main.cpp -o CMakeFiles/lista_projekt.dir/main.cpp.s
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/main.cpp -o CMakeFiles/lista_projekt.dir/main.cpp.s
 
 src/CMakeFiles/lista_projekt.dir/main.cpp.o.requires:
 .PHONY : src/CMakeFiles/lista_projekt.dir/main.cpp.o.requires
@@ -208,7 +208,7 @@ lista_projekt: src/CMakeFiles/lista_projekt.dir/main.cpp.o
 lista_projekt: src/CMakeFiles/lista_projekt.dir/build.make
 lista_projekt: src/CMakeFiles/lista_projekt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../lista_projekt"
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lista_projekt.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lista_projekt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/lista_projekt.dir/build: lista_projekt
@@ -223,10 +223,10 @@ src/CMakeFiles/lista_projekt.dir/requires: src/CMakeFiles/lista_projekt.dir/main
 .PHONY : src/CMakeFiles/lista_projekt.dir/requires
 
 src/CMakeFiles/lista_projekt.dir/clean:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src && $(CMAKE_COMMAND) -P CMakeFiles/lista_projekt.dir/cmake_clean.cmake
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src && $(CMAKE_COMMAND) -P CMakeFiles/lista_projekt.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/lista_projekt.dir/clean
 
 src/CMakeFiles/lista_projekt.dir/depend:
-	cd /home/patr95/Pulpit/PAMSI/1403/prog/prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patr95/Pulpit/PAMSI/1403/prog/prj /home/patr95/Pulpit/PAMSI/1403/prog/prj/src /home/patr95/Pulpit/PAMSI/1403/prog/prj/build /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src/CMakeFiles/lista_projekt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src/CMakeFiles/lista_projekt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/lista_projekt.dir/depend
 

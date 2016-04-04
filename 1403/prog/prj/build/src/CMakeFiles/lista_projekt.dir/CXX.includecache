@@ -6,3 +6,33 @@
 
 #IncludeRegexTransform: 
 
+../inc/BiegaczLista.h
+Lista.h
+../inc/Lista.h
+IRunnable.h
+../inc/IRunnable.h
+random
+-
+
+../inc/ILista.h
+string
+-
+
+../inc/IRunnable.h
+
+../inc/Lista.h
+string
+-
+iostream
+-
+ILista.h
+../inc/ILista.h
+
+/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.cpp
+BiegaczLista.h
+/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.h
+sstream
+-
+time.h
+-
+

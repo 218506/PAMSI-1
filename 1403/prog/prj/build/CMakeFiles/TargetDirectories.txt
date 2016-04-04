@@ -1,1 +1,1 @@
-/home/patr95/Pulpit/PAMSI/1403/prog/prj/build/src/CMakeFiles/lista_projekt.dir
+/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/src/CMakeFiles/lista_projekt.dir

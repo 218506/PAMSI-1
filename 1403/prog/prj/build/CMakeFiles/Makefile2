@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patr95/Pulpit/PAMSI/1403/prog/prj
+CMAKE_SOURCE_DIR = /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patr95/Pulpit/PAMSI/1403/prog/prj/build
+CMAKE_BINARY_DIR = /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -74,7 +74,7 @@ src/preinstall:
 src/CMakeFiles/lista_projekt.dir/all:
 	$(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/depend
 	$(MAKE) -f src/CMakeFiles/lista_projekt.dir/build.make src/CMakeFiles/lista_projekt.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles  1 2 3 4 5 6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles  1 2 3 4 5 6
 	@echo "Built target lista_projekt"
 .PHONY : src/CMakeFiles/lista_projekt.dir/all
 
@@ -84,9 +84,9 @@ all: src/CMakeFiles/lista_projekt.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/lista_projekt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/lista_projekt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patr95/Pulpit/PAMSI/1403/prog/prj/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/lista_projekt.dir/rule
 
 # Convenience name for target.

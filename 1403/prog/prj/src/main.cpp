@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 #include "Sedzia.h"
 #include "BiegaczLista.h"
 #include "Stoper.h"

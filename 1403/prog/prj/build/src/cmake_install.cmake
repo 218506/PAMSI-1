@@ -1,4 +1,4 @@
-# Install script for directory: /home/patr95/Pulpit/PAMSI/1403/prog/prj/src
+# Install script for directory: /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
