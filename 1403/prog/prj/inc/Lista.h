@@ -17,6 +17,27 @@ std::string wartosc;
 class Lista : public ILista
 {
 public:
+
+
+//*********QUICKSORT***************//
+
+void swap(int i,int j);
+
+int partition(int l, int p);
+
+void quicksort(int l, int p);
+
+
+//*************END****************//
+
+//*********MERGESORT***************//
+
+
+
+//*************END****************//
+
+
+
 /*!
 *Funkcja Add dodaje kolejny element listy.
 *Jesli rozmiar listy jest za maly w stosunku do podawanego indexu to wyswietla komunikat.

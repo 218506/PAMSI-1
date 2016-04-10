@@ -7,7 +7,7 @@
 *\brief Przygotowuje liste i definiuje przebieg jej uzupelniania.
 */
 
-class BiegaczLista :public IRunnable, Lista {
+class BiegaczLista :public IRunnable,Lista {
  public:
 /*!
 * Klasa pomocnicza majaca na celu zdefiniowanie metod z tablicowego Biegacza, dla listy.

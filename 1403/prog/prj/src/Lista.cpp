@@ -1,5 +1,82 @@
 #include "Lista.h"
 
+
+//*********QUICKSORT***************//
+
+//Metoda zamienia miejscami wyrazy o indeksie i, j.
+void Lista::swap(int i, int j)
+{
+  if(i > Size()-1 || j>Size()-1)
+    {
+      cerr << "Nieprawidlowe indeksowanie swapa" << endl;
+      return;
+    }
+  if(i>=j) //gdy ten sam wyraz, lub i>j nie swapuje
+    return;
+  
+  string tmp1=Get(i);
+  string tmp2=Get(j);
+  
+  if(i>0) //if spowodowany dziwnym napisaniem metody remove.
+    {    
+      Remove(j+1);
+      Remove(i+1);
+      Add(tmp1,j-1);
+      Add(tmp2,i);
+    }
+  else
+    {
+      Remove(j+1);      
+      Remove(i);
+      Add(tmp1,j-1);
+      Add(tmp2,i);
+    }
+}
+
+
+int Lista:: partition(int l, int p)
+{
+  int i=l;
+  int j;
+  int piv=0;
+  
+  //1 - losowanie pivota - najbardziej z lewej.
+  piv=atoi(Lista::Get(l).c_str());
+  
+  for(int j=l+1;j<p;j++)
+    {
+      if( atoi(Lista::Get(j).c_str()) <= piv )
+	{
+	  i++;
+	  swap(i,j);
+	}
+    }  
+  swap(l,i);
+  //<---zamiana pivotu z ostatnim zapamietanym wyrazem mniejszym od piv
+  
+  return i;
+}
+
+  
+  
+//Wszystko ladnie, oprocz ostatniego wyrazu !
+  
+void Lista::quicksort(int l, int p)
+{
+  if(l<p) // jeżeli l i p sie nie minely
+    {
+      int m;
+      m=partition(l,p);
+      quicksort(m+1,p);
+      quicksort(l,m); //sortowanie lewej strony
+    }
+}
+  
+
+//*************END****************//
+
+
+
 int Lista::Size()
 {
 return rozmiar;
@@ -69,10 +146,11 @@ rozmiar --;
 }
 std::string Lista::Get(int index){
 Node* temp = wskaznikPOCZ; ///temp to tymczasowy wskaznik dodawanej listy
-for(int i=0; i < index-1 ; i++)
+for(int i=0; i < index ; i++)
     temp = temp->wskaznik;
 return temp->wartosc;
 }
+
 
 
 
