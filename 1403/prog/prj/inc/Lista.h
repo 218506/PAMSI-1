@@ -19,22 +19,26 @@ class Lista : public ILista
 public:
 
 
-//*********QUICKSORT***************//
+  //*********QUICKSORT***************//
 
-void swap(int i,int j);
+  // zamienia miejscami liste z indeksami i oraz j
+  void swap(int i,int j);
 
-int partition(int l, int p);
+  // dzieli na partycje na zakresie <l,p>
+  int partition(int l, int p); 
 
-void quicksort(int l, int p);
-
-
-//*************END****************//
-
-//*********MERGESORT***************//
+  //quicksortuje jako l-0, p-rozmiar-1
+  void quicksort(int l, int p); 
 
 
+  //*************END****************//
 
-//*************END****************//
+  //*********MERGESORT***************//
+  
+  void merge(int l,int s, int p);
+
+  void mergesort(int l, int p);
+  //*************END****************//
 
 
 

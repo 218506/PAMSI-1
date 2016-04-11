@@ -20,10 +20,6 @@ string
 
 ../inc/IRunnable.h
 
-../inc/IStoper.h
-string
--
-
 ../inc/Lista.h
 string
 -
@@ -31,30 +27,6 @@ iostream
 -
 ILista.h
 ../inc/ILista.h
-
-../inc/Sedzia.h
-IRunnable.h
-../inc/IRunnable.h
-IStoper.h
-../inc/IStoper.h
-fstream
--
-string
--
-iostream
--
-
-../inc/Stoper.h
-iostream
--
-chrono
--
-string
--
-fstream
--
-IStoper.h
-../inc/IStoper.h
 
 /home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.cpp
 BiegaczLista.h
@@ -65,18 +37,4 @@ time.h
 -
 cstdlib
 -
-
-/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Lista.cpp
-Lista.h
-/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Lista.h
-
-/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/main.cpp
-iostream
--
-Sedzia.h
-/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Sedzia.h
-BiegaczLista.h
-/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/BiegaczLista.h
-Stoper.h
-/home/mwia/QSpamsi/PAMSI-1/1403/prog/prj/src/Stoper.h
 
