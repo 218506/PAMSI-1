@@ -29,4 +29,5 @@ class BiegaczLista :public IRunnable,Lista {
   //*************END****************//
  private:
   string* tablica_dyn;
+  int size_tab;
 };
