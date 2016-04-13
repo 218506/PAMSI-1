@@ -21,4 +21,12 @@ class BiegaczLista :public IRunnable,Lista {
 *   Funkcja run wyszukuje slowo i zwraca prawde lub falsz w zaleznosci ,czy znalazlo czy nie.
 */
   bool run();
+
+  /************MERGESORT NA TABLICY*************/
+  void merge(int l,int s, int p);
+
+  void mergesort(int l, int p);
+  //*************END****************//
+ private:
+  string* tablica_dyn;
 };

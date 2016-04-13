@@ -33,12 +33,7 @@ public:
 
   //*************END****************//
 
-  //*********MERGESORT***************//
-  
-  void merge(int l,int s, int p);
 
-  void mergesort(int l, int p);
-  //*************END****************//
 
 
 
